@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './components/Navbar/Navbar'
+
 
 const App = () => {
   return (
