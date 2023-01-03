@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
-import { MdVideoCameraFront } from 'react-icons/md';
 import { meal } from '../../constants';
 import './Intro.css';
 
 const Intro = () => {
-  const [playVideo, setplayVideo] = React.useState(false)
+  const [playVideo, setPlayVideo] = React.useState(false)
   const vidRef = React.useRef();
 
   const handleVideo = () => {
@@ -18,6 +17,7 @@ const Intro = () => {
       vidRef.current.play();
     }
   }
+
   return (
   <div className='app__video'>
     <video
@@ -30,7 +30,7 @@ const Intro = () => {
     />
     <div className='app__video-overlay flex__center'>
       <div className='app__video-overlay_circle flex__center'
-            onclick={handleVideo}
+            onClick={handleVideo}
             >
               {playVideo
                ? <BsPauseFill color="#fff" fontSize={30}/>
