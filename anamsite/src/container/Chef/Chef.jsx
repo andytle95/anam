@@ -15,13 +15,13 @@ const Chef = () => (
       <SubHeading title="Chef's Word"/>
       <h1 className='headtext__cormorant'>What We Believe In</h1>
 
-
     <div className='app__chef-content'>
-      <div className='app__chef-content_quote'></div>
+      <div className='app__chef-content_quote'>
       <img src={images.quote} alt="quote" />
-      <p className='p__opensans'>Lorem Ipsum</p>
+        <p className='p__opensans'>Lorem Ipsum</p>
+      </div>
+      <p className='p__opensans'>That you feel me special, stop playing with me.</p>
     </div>
-    <p className='p__opensans'>That you feel me special, stop playing with me.</p>
 
     <div className='app__chef-sign'>
       <p>Andy mf Le</p>
@@ -29,8 +29,7 @@ const Chef = () => (
       <img src={images.sign} alt="sign" />
     </div>
     </div>
-  </div>
-
+    </div>
 );
 
 export default Chef;
