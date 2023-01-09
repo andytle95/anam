@@ -1,7 +1,7 @@
 {
   "name": "anamsite",
   "version": "0.1.0",
-  "homepage": "https://andytle95.github.io/anam/",
+  "homepage": "https://anam.restaurant/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
