@@ -12,28 +12,38 @@ const SpecialMenu = () => (
     </div>
     <div className='app__specialMenu-menu'>
     <div className='app__specialMenu-menu_wine flex__center'>
-      <p className='app__specialMenu-menu_heading'>Wine</p>
+      <p className='app__specialMenu-menu_heading'>Appetizers</p>
       <div className='app__specialMenu_menu_items'>
-        {data.wines.map((wine, index) => (
+        {data.appetizers.map((wine, index) => (
           <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags}/>
         ))}
       </div>
     </div>
 
-
+{/*
     <div className='app__specialMenu-menu_img'>
       <img src={images.menu} alt="menu img" />
-    </div>
+    </div> */}
 
       <div className='app__specialMenu-menu_cocktails flex__center'>
-        <p className='app__specialMenu-menu_heading'>Cocktails</p>
+        <p className='app__specialMenu-menu_heading'>Dim Sum</p>
         <div className='app__specialMenu_menu_items'>
-          {data.cocktails.map((cocktail, index) => (
+          {data.dimsum.map((cocktail, index) => (
             <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
           ))}
         </div>
       </div>
       </div>
+
+    <div className='app__specialMenu-menu_cocktails flex__center'>
+      <p className='app__specialMenu-menu_heading'>Entrees</p>
+      <div className='app__specialMenu_menu_items'>
+        {data.dimsum.map((cocktail, index) => (
+          <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+        ))}
+      </div>
+    </div>
+
     <div style={{marginTop: '15px'}}>
       <button type="button" className='custom__button'>View More</button>
     </div>
