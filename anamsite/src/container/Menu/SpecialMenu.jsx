@@ -38,7 +38,7 @@ const SpecialMenu = () => (
     <div className='app__specialMenu-menu_cocktails flex__center'>
       <p className='app__specialMenu-menu_heading'>Entrees</p>
       <div className='app__specialMenu_menu_items'>
-        {data.dimsum.map((cocktail, index) => (
+        {data.entrees.map((cocktail, index) => (
           <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
         ))}
       </div>

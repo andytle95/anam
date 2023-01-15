@@ -31,7 +31,9 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
+    padding: 2%;
 }
+
 
 .app__specialMenu-menu_img {
     width: 410px;

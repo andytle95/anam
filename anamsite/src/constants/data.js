@@ -99,6 +99,49 @@ const dimsum = [
   },
 ];
 
+const entrees = [
+  {
+    title: 'Mi Go Combination Egg Noodle',
+    price: '$13.95',
+  },
+  {
+    title: 'Banh Mi Chao Sizzling Filet Mignon',
+    price: '$18.95',
+  },
+  {
+    title: 'Xiu Mai Da Lat',
+    price: '$9.95',
+  },
+  {
+    title: 'Com Bo Steak / Ribeye with Rice',
+    price: '$18.95',
+  },
+    {
+    title: 'Com Ga Chien / Fried Chicken with Rice',
+    price: '$15.95',
+  },
+  {
+    title: 'Com Tom Kho Tau / Saute Prawns in Roe Sauce with Rice',
+    price: '$18.95',
+  },
+  {
+    title: 'Pho',
+    price: '$13.95',
+  },
+  {
+    title: 'Bun Bo Hue / Spicy Beef Noodles',
+    price: '$13.95',
+  },
+  {
+    title: 'Chao Long / Pork Congee',
+    price: '$12.95',
+  },
+  {
+    title: 'Bun Mam / Fermented Fish Noodles',
+    price: '$13.95',
+  },
+];
+
 const awards = [
   {
     imgUrl: images.award02,
@@ -122,4 +165,4 @@ const awards = [
   },
 ];
 
-export default { appetizers, dimsum, awards };
+export default { appetizers, dimsum, entrees, awards };
