@@ -12,7 +12,7 @@ const Header = (props) => (
       <SubHeading title="Welcome!"/>
       <h1 className='app__header-h1'>Traditional Vietnamese Dishes With French Cooking Methods</h1>
       <p className='p__opensans' style={{ margin: '2rem 0' }}>Our goal is to focus on how it's made and provide a fresh meal with a unique experience!</p>
-      <button type="button" className="custom__button">See Our Menu</button>
+      {/* <button type="button" className="custom__button">See Our Menu</button> */}
     </div>
     <div className='app__wrapper_img'>
       <img src={images.welcome} alt="header img" />

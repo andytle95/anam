@@ -67,6 +67,12 @@ const appetizers = [
     tags: 'Seasoned with salt and pepper.',
   },
 
+  {
+    title: 'Gói Tôm Sen',
+    price: '$12.94',
+    // tags: 'Seasoned with salt and pepper.',
+  },
+
 
 
 ];
@@ -140,6 +146,43 @@ const entrees = [
     title: 'Bun Mam / Fermented Fish Noodles',
     price: '$13.95',
   },
+
+  {
+    title: 'Bánh Canh Cua / Crab Udon Soup',
+    price: '$13.95',
+  },
+
+  {
+    title: 'Steak Garlic Noodle',
+    price: '$20',
+  },
+
+  {
+    title: 'Prawns Garlic Noodle',
+    price: '$20',
+  },
+
+];
+
+const drinks = [
+
+  {
+    title: 'Ca Phe Trung / Egg Coffee',
+    price: '$6.95'
+  },
+  {
+    title: 'Strawberry Passionfruit',
+    price: '$6.95'
+  },
+  {
+    title: 'Passionfruit',
+    price: '$6.95'
+  },
+  {
+    title: 'Suong Sam Nuoc Dua / Coconut Juice with Yanang Jelly',
+    price: '$7.95'
+  },
+
 ];
 
 const awards = [
@@ -165,4 +208,4 @@ const awards = [
   },
 ];
 
-export default { appetizers, dimsum, entrees, awards };
+export default { appetizers, dimsum, entrees, drinks, awards };
